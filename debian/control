@@ -1,0 +1,13 @@
+Source: rn-subsonic
+Section: contrib
+Priority: extra
+Maintainer: Mhynlo <mhynlo@mhynlo.io>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.6
+Homepage: http://www.subsonic.org/pages/index.jsp
+
+Package: rn-subsonic
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.1.0), openjdk-7-jre
+Description: Subsonic
+ Your complete, personal media streamer.

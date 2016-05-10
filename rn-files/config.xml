@@ -1,0 +1,13 @@
+<Application resource-id="rn-subsonic"><!-- 'resource-id' must be AppName -->
+  <Name>Subsonic For ReadyNAS</Name>
+  <Author>Mhynlo</Author>
+  <Version>6.0</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>https://localhost:4242/</LaunchURL>
+  <ReservePort>4242</ReservePort>
+  <InfoURL>http://www.subsonic.org/pages/demo.jsp</InfoURL>
+  <DebianPackage>rn-subsonic</DebianPackage>
+  <ServiceName>fvapp-rn-subsonic.service</ServiceName>
+  <Description lang="en-us">A free, web-based media streamer and jukebox.</Description>
+</Application>

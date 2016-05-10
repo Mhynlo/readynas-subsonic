@@ -1,0 +1,13 @@
+[Unit]
+Description=Service for subsonic app
+
+[Service]
+ExecStart=/apps/rn-subsonic/bin/subsonic.sh
+PIDFile=/var/run/rn-subsonic.pid
+Type=forking
+Nice=18
+User=admin
+Group=admin
+
+[Install]
+WantedBy=multi-user.target

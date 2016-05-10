@@ -1,0 +1,3 @@
+#!/usr/bin/dh-exec
+rn-files/* apps/rn-subsonic
+subsonic/subsonic* apps/rn-subsonic/bin
